@@ -33,12 +33,7 @@ namespace Database_login_page
             int nHeightEllipse // height of ellipse
         );
 
-#pragma warning disable CA1041 // Provide ObsoleteAttribute message
-        [Obsolete]
-#pragma warning restore CA1041 // Provide ObsoleteAttribute message
-#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
         public Form1()
-#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
