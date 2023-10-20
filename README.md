@@ -6,8 +6,6 @@ after that, it can execute the code at this stage.
 
 ---------------------------------Full_Code-----------------------------
 
-
- 
 {
 namespace Database_login_page
 {
