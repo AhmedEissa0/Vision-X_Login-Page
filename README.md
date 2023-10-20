@@ -6,7 +6,7 @@ after that, it can execute the code at this stage.
 
 ---------------------------------Full_Code-----------------------------
 Starts here:
-
+{
 namespace Database_login_page
 {
     public partial class Form1 : Form
@@ -255,4 +255,5 @@ namespace Database_login_page
 
         }
     }
+}
 }
