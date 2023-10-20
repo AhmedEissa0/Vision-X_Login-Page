@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{15be5a33-07d5-4fc6-a482-748f2b1752df}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>py.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="bin\Debug\net7.0-windows\clr.py" />
+    <Compile Include="bin\Debug\net7.0-windows\pythonnet\find_libpython\__init__.py" />
+    <Compile Include="bin\Debug\net7.0-windows\pythonnet\find_libpython\__main__.py" />
+    <Compile Include="bin\Debug\net7.0-windows\pythonnet\util\__init__.py" />
+    <Compile Include="bin\Debug\net7.0-windows\pythonnet\__init__.py" />
+    <Compile Include="py.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="obj\Debug\net7.0-windows\Database login page.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\net7.0-windows\Database login page.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\net7.0-windows" />
+    <Folder Include="bin\Debug\net7.0-windows\pythonnet" />
+    <Folder Include="bin\Debug\net7.0-windows\pythonnet\find_libpython" />
+    <Folder Include="bin\Debug\net7.0-windows\pythonnet\util" />
+    <Folder Include="obj\Debug\net7.0-windows" />
+    <Folder Include="obj\Release\net7.0-windows" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
