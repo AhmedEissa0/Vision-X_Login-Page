@@ -7,6 +7,8 @@ I have reached to a point that the login page connected to a Database with MSSql
 
 And also, it can fetch the directory of that py code automatic even fetches the username of the pc automatic also.
 
+I were also responsible for some tasks with PyQt6 and the machine vision product.
+
 ---------------------------------Full_Code-----------------------------
 
 {
