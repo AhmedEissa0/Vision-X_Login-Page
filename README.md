@@ -1,8 +1,11 @@
 # Vision-X_Login-Page
-this project is a login page made with windows forms for a specific project 
-the login page designed to cross a python code with c# .NET environment 
-i have reached to a point that the login page connected to a Database with MSSql and when the login is successful it fetches the .exe for the python code that it can fetch the directory of that py code automatic even fetches the username of the pc automatic also
-after that, it can execute the code at this stage.
+this project is a login page made with windows forms for a specific project.
+ 
+the login page designed to cross a python code - that was made by PyQt6 contains a machine vision product - with C# .NET environment.
+
+I have reached to a point that the login page connected to a Database with MSSql and when the login is successful it decrypt the .exe file of python code and execute it then encrypt it once more.
+
+And also, it can fetch the directory of that py code automatic even fetches the username of the pc automatic also.
 
 ---------------------------------Full_Code-----------------------------
 
